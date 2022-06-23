@@ -1031,7 +1031,7 @@ displayText: '📊Dashboard',
 id: '#dashboard'
 }
 }]
-sock.sendMessage(from, { caption: listmn, location: { jpegThumbnail: fs.readFileSync('./worker/media/image/loc.jpg') }, buttons: but, footer: '©Deffbotz ~ Deff'})
+sock.sendMessage(from, { caption: listmn, location: { jpegThumbnail: fs.readFileSync('./worker/media/image/loc.jpg') }, buttons: but, footer: '©Rifzz ~ Rifa'})
 }
 break
 break
@@ -1969,7 +1969,7 @@ templateMessage: {
 hydratedTemplate: {
 videoMessage: message.videoMessage,
 hydratedContentText: listmn,
-hydratedFooterText: "© DEFFBOTZ ~ DEFF",
+hydratedFooterText: "© Rifzz ~ Rifa",
 hydratedButtons: [{
 urlButton: {
 displayText: 'Group Whatsapp',
@@ -2311,7 +2311,7 @@ let buttonMessageVote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttonsVote,
 headerType: 1
 }
@@ -2356,7 +2356,7 @@ let buttonMessageUpvote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttonsUpvote,
 headerType: 1,
 mentions: menvote
@@ -2402,7 +2402,7 @@ let buttonMessageDevote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttonsDevote,
 headerType: 1,
 mentions: menvote
@@ -2809,7 +2809,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttons,
 headerType: 4
 }
@@ -2834,7 +2834,7 @@ let buttonMessage = {
 image: {url:res[0].icon},
 jpegThumbnail: thum,
 caption: teks,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttons,
 headerType: 4
 }
@@ -2861,7 +2861,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttons,
 headerType: 4
 }
@@ -2885,7 +2885,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttons,
 headerType: 4
 }
@@ -3072,7 +3072,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: `*「 DEFF ~ MD」*\n\nChange Info, Select Open Or Close`,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttons,
 headerType: 4
 }
@@ -3099,7 +3099,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: `*「 DEFF ~ MD」*\n\nChange Group Setting, Select Open Or Close`,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttons,
 headerType: 4
 }
@@ -3242,16 +3242,16 @@ let buttonMessage = {
 image: thum,
 jpegThumbnail: log0,
 caption: teks,
-footer: "©DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"DEFF ~ MD Qris ( Donate )",
-body: "©DEFF", 
+title:"RIFA ~ MD Qris ( Donate )",
+body: "© Rifzz ~ Rifa", 
 thumbnail: fs.readFileSync("worker/media/image/Deff.jpg"),
 mediaType:1,
-mediaUrl: 'https://telegra.ph/file/40762e97a434e17ba3d75.jpg',
-sourceUrl: "https://telegra.ph/file/40762e97a434e17ba3d75.jpg"
+mediaUrl: 'https://telegra.ph/file/64386bbce69964d257772.png',
+sourceUrl: "https://telegra.ph/file/44ef7094fdad63fb94a17.jpg"
 }}
 }
 sock.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -3685,12 +3685,12 @@ caption: `*| GOOGLE IMAGE |*
 
 🤠 Query : ${text}
 🔗 Media Url : ${images}`,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"DEFFBOTZ - By Deff",
-body:"© DEFFBOTZ ~ DEFF",
+title:"RIFZZBOTZ - By RIFA",
+body:"© RIFZZBOTZ ~ RIFA",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -3734,8 +3734,8 @@ footer: "© DEFFBOTZ ~ DEFF",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"DEFFBOTZ - By Deff",
-body:"© DEFFBOTZ ~ DEFF",
+title:"RIFZZBOTZ - By RIFA",
+body:"© RIFZZBOTZ ~ RIFA",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -3775,7 +3775,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttons,
 headerType: 4
 }
@@ -3812,7 +3812,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttons,
 headerType: 4
 }
@@ -3840,8 +3840,8 @@ if (isBan) return ads(mess.ban)
 if (!args[0]) return ads("Linknya mana kak?")
 try {
 sock.sendMessage(from, {video:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"DEFFBOTZ - By Deff",
-body:"© DEFFBOTZ ~ DEFF",
+title:"RIFZZBOTZ - By RIFA",
+body:"© RIFZZBOTZ ~ RIFA",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -3858,8 +3858,8 @@ if (isBan) return ads(mess.ban)
 if (!args[0]) return ads("Linknya mana kak?")
 try {
 sock.sendMessage(from, {image:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"DEFFBOTZ - By Deff",
-body:"© DEFFBOTZ ~ DEFF",
+title:"RIFZZBOTZ - By RIFA",
+body:"© RIFZZBOTZ ~ RIFA",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -3891,7 +3891,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:lotwit.medias[1].url},
 caption: teks,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -3918,7 +3918,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -3952,7 +3952,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:resd.medias[0].url},
 caption: teks,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -3979,7 +3979,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -4014,7 +4014,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.medias[1].url},
 caption: texttk,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -4063,7 +4063,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.medias[0].url},
 caption: texttk,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -4103,12 +4103,12 @@ caption: `*| YOUTUBE PLAY |*
 ⭔ Channel : ${anu.author.url}
 ⭔ Description : ${anu.description}
 ⭔ Url : ${anu.url}`,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: anu.title,
-body: "© DEFFBOTZ ~ DEFF",
+body: "© Rifzz ~ Rifa",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: anu.url,
@@ -4138,12 +4138,12 @@ let buttons = [
 let buttonMessage = {
 image: {url:res.thumb},
 caption: textyt,
-footer: "© DEFFBOTZ ~ DEFF",
+footer: "© Rifzz ~ Rifa",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: res.title,
-body: "© DEFFBOTZ ~ DEFF",
+body: "© Rifzz ~ Rifa",
 thumbnail: {url:res.thumb},
 mediaType:2,
 mediaUrl: args[0],
@@ -4161,8 +4161,8 @@ break
 case prefix+'ytvd': {
 if (isBan) return ads(mess.ban)
 sock.sendMessage(from, {video:{url:args[0]}, mimetype:"video/mp4", caption:"Success", contextInfo:{externalAdReply:{
-title:"DEFFBOTZ - By Deff",
-body:"© DEFFBOTZ ~ DEFF",
+title:"RIFZZBOTZ - By Rifa",
+body:"© Rifzz ~ Rifa",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -4174,8 +4174,8 @@ break
 case prefix+'ytad': {
 if (isBan) return ads(mess.ban)
 sock.sendMessage(from, {audio:{url:args[0]}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
-title:"DEFFBOTZ - By Deff",
-body:"© DEFFBOTZ ~ DEFF",
+title:"RIFZZBOTZ - By Rifa",
+body:"© Rifzz ~ Rifa",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
