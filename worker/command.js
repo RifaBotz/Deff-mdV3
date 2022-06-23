@@ -727,7 +727,7 @@ let res = sock.sendMessage(from, { text: teks, mentions: mems }, { quoted: m })
 return res
  }
 }
-let head = `*╭───╼[ _DEFFBOTZ-DEFF_ ]╾──➲*`
+let head = `*╭───╼[ _RIFZZ-BOTZ_ ]╾──➲*`
 let left = "*│*"
 let branch = "*├*"
 let bracketmenu = "*┞─╼「"
